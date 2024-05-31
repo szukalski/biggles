@@ -286,7 +286,7 @@ Resources:
           inputs:
             runCommand:
             - cd /home/ec2-user/environment
-            - git clone --single-branch --branch main https://github.com/szukalski/biggles.git
+            - git clone --single-branch --branch main https://github.com/szukalski/biggles.git aws-saas-operations-workshop
         - action: aws:runShellScript
           name: Install_prerequisites_and_deploy_SaaS_application
           inputs:
